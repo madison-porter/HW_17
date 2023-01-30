@@ -9,6 +9,7 @@ body {
     height:110px;
     background-color: #474747;
     color: #F9F7F4;
+    display: inline-block;
 }
 
 #header {
@@ -17,12 +18,8 @@ body {
     font-weight: 400;
 }
 
-.inlineBlock {
-    display: inline-block;
-    vertical-align: top;
-}
 
-li {
+nav {
     font-family: Montserrat;
     font-size: 20px;
     font-weight: 400;
@@ -85,7 +82,7 @@ h3{
 }
 
 /* Footer */
-footer {
+.footer {
     height: 110px;
     background-color: #474747;
     color: #F9F7F4;
@@ -104,4 +101,9 @@ h6 {
     font-family: Montserrat;
     font-size: 12px;
     font-weight: 500;
+}
+
+.icon {
+    height: 45px;
+    display: inline-block;
 }
