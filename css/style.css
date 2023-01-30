@@ -1,13 +1,107 @@
 body {
     font-family: 'Montserrat', sans-serif;
-    font-family: 'Open Sans', sans-serif;
-
+    font-family: 'Source Serif Pro', serif;
     background-color: #474747;
 }
 
+/* Header */
 .header {
     height:110px;
     background-color: #474747;
     color: #F9F7F4;
-    
+}
+
+#header {
+    font-family: Source Serif Pro;
+    font-size: 24px;
+    font-weight: 400;
+}
+
+.inlineBlock {
+    display: inline-block;
+    vertical-align: top;
+}
+
+li {
+    font-family: Montserrat;
+    font-size: 20px;
+    font-weight: 400;
+    color: #F9F7F4;
+}
+
+/* About Me */
+h1{
+    font-family: Source Serif Pro;
+    font-size: 48px;
+    font-weight: 400;
+    color:#F9F7F4;
+}
+
+.aboutMe{
+    height: 87px;
+    width: 680px;
+    background-color: #474747;
+}
+
+#aboutMe { 
+    font-family: Montserrat;
+    font-size: 24px;
+    font-weight: 400;
+    color:#F9F7F4;
+}
+
+.button{
+    display: inline-block;
+    font-family: Montserrat;
+    font-size: 20px;
+    font-weight: 400;
+    text-align: center;
+    width: 80px;
+    padding: 16px;
+    margin: 16px;
+    background-color: #474747;
+    color: #F9F7F4;
+}
+
+.headshot {
+    height: 426px;
+    width: 343px;
+    background-color: #474747;
+}
+
+/* Project Tiles */
+.projectTile {
+    height: 320px;
+    width: 928px;
+    padding: 16px;
+    background-color: #EAE3D9;
+}
+
+h3{ 
+    font-family: Source Serif Pro;
+    font-size: 24px;
+    font-weight: 700;
+    color: #474747;
+}
+
+/* Footer */
+footer {
+    height: 110px;
+    background-color: #474747;
+    color: #F9F7F4;
+    display: inline-block;
+    vertical-align: bottom;
+}
+
+#initials {
+        font-family: Source Serif Pro;
+        font-size: 36px;
+        font-weight: 700;
+        padding: 16px;
+}
+
+h6 {
+    font-family: Montserrat;
+    font-size: 12px;
+    font-weight: 500;
 }
