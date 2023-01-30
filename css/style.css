@@ -1,4 +1,13 @@
-.inlineBlock {
-display: inline-block;
-vertical-align: top;
-} 
+body {
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+
+    background-color: #474747;
+}
+
+.header {
+    height:110px;
+    background-color: #474747;
+    color: #F9F7F4;
+    
+}
