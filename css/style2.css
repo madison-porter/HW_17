@@ -1,0 +1,136 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Source Serif Pro', serif;
+    background-color: #474747;
+}
+
+/* Header */
+.navigation {
+    background-color: #474747;
+    height: 110px;
+    color: #F9F7F4;
+}
+
+.iconLeft {
+    height: 45px;
+    padding: 16px;
+    float: left;
+    vertical-align: middle;
+}
+
+#header {
+    font-family: Source Serif Pro;
+    font-size: 24px;
+    font-weight: 400;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.inline-block {
+    display: inline-block;
+    vertical-align: top;
+    float: right;
+}
+
+a{
+    font-family: montserrat;
+    font-size: 20px;
+    font-weight: 400;
+    padding: 16px;    
+}
+
+/* About Me */
+h1{
+    font-family: Source Serif Pro;
+    font-size: 48px;
+    font-weight: 400;
+    color:#F9F7F4;
+}
+
+#aboutMe { 
+    font-family: Montserrat;
+    font-size: 24px;
+    font-weight: 400;
+    color:#F9F7F4;
+    height: 87px;
+    width: 680px;
+    background-color: #474747;
+    padding: 16px;
+}
+
+.button {
+    display: inline-block;
+    font-family: Montserrat;
+    font-size: 20px;
+    font-weight: 400;
+    text-align: center;
+    width: 80px;
+    padding: 16px;
+    margin: 16px;
+    background-color: #474747;
+    color: #F9F7F4;
+}
+
+.headshot {
+    height: 426px;
+    width: 343px;
+    background-color: #474747;
+}
+
+/* Projects */
+.projectLeft {
+    height: 320px;
+    width: 928px;
+    background-color: #EAE3D9;
+    float: left;
+} 
+
+.projectTitleLeft {
+    padding: 16px;
+    text-align: right;
+    background-color: #F9F7F4;
+    color: #474747;
+}
+
+.projectRight {
+    height: 320px;
+    width: 928px;
+    background-color: #EAE3D9;
+    float: right;
+}
+
+.projectTitleRight {
+    padding: 16px;
+    text-align: left;
+    background-color: #F9F7F4;
+    color: #474747;
+}
+
+/* Footer */
+.footer {
+    height: 110px;
+    background-color: #474747;
+    color: #F9F7F4;
+    vertical-align: bottom;
+}
+
+h5 {
+    font-family: Source Serif Pro;
+    font-size: 36px;
+    font-weight: 700;
+    padding: 16px;
+    text-align: left;
+}
+
+h6 {
+    font-family: Montserrat;
+    font-size: 12px;
+    font-weight: 500;
+    text-align: center;
+}
+
+.iconRight {
+    height: 45px;
+    padding: 16px;
+    float: right;
+}
