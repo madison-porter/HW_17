@@ -1,15 +1,26 @@
 body {
     font-family: 'Montserrat', sans-serif;
     font-family: 'Source Serif Pro', serif;
-    background-color: #474747;
+    background-color: #F9F7F4;
 }
 
 /* Header */
-.header {
-    height:110px;
+header {
     background-color: #474747;
     color: #F9F7F4;
-    display: inline-block;
+    position: fixed;
+    top: 0;
+    height: 110px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 32px;
+}
+
+.icon {
+    height: 45px;
+    width: 45px;
 }
 
 #header {
@@ -18,99 +29,137 @@ body {
     font-weight: 400;
 }
 
+ul {
+    display: flex;
+    list-style-type: none;
+    margin-block-start: 0px !important;
+    margin-block-end: 0px !important;
+    padding-inline-start: 0px !important;
+}
 
-nav {
-    font-family: Montserrat;
+li {
+    padding: 16px;
+}
+
+a{
+    font-family: montserrat;
     font-size: 20px;
-    font-weight: 400;
-    color: #F9F7F4;
+    font-weight: 400; 
 }
 
 /* About Me */
+.about {
+    background-color: #474747;
+    width: 100%;
+    color: #F9F7F4;
+    margin-top: 110px;
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+    padding-bottom: 96px;
+}
+
 h1{
     font-family: Source Serif Pro;
     font-size: 48px;
     font-weight: 400;
-    color:#F9F7F4;
-}
-
-.aboutMe{
-    height: 87px;
-    width: 680px;
-    background-color: #474747;
+    padding-left: 32px;
 }
 
 #aboutMe { 
     font-family: Montserrat;
     font-size: 24px;
     font-weight: 400;
-    color:#F9F7F4;
+    width: 60%;
+    padding: 16px;
+    padding-left: 10%;
 }
 
-.button{
+.button {
     display: inline-block;
     font-family: Montserrat;
     font-size: 20px;
     font-weight: 400;
     text-align: center;
-    width: 80px;
     padding: 16px;
     margin: 16px;
     background-color: #474747;
     color: #F9F7F4;
+    padding-left: 47.5%;
+    display: flex;
+    align-items: center;
+}
+
+.arrow {
+    margin-left: 8px;
 }
 
 .headshot {
-    height: 426px;
-    width: 343px;
-    background-color: #474747;
+    height: auto;
+    width: 400px;
 }
 
-/* Project Tiles */
-.projectTile {
-    height: 320px;
-    width: 928px;
-    padding: 16px;
+/* Projects */
+.projectContainer{
     background-color: #EAE3D9;
+    width: 60%;
 }
 
-h3{ 
-    font-family: Source Serif Pro;
-    font-size: 24px;
-    font-weight: 700;
+.projectImage{
+    width: 100%;
+    height: auto;
+}
+
+.projectRight {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    margin-bottom: 48px;
+    margin-top: -96px;
+}
+
+.projectTitleRight {
+    padding: 8px;
+    text-align: left;
+    background-color: #F9F7F4;
+    color: #474747;
+}
+
+.projectLeft {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 48px;
+} 
+
+.projectTitleLeft {
+    padding: 8px;
+    text-align: right;
+    background-color: #F9F7F4;
     color: #474747;
 }
 
 /* Footer */
-.footer {
-    height: 110px;
+footer {
     background-color: #474747;
     color: #F9F7F4;
-    display: inline-block;
-    vertical-align: bottom;
+    height: 110px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 32px;
 }
 
-h5{
+h5 {
     font-family: Source Serif Pro;
     font-size: 36px;
     font-weight: 700;
-    padding: 16px;
-}
-
-#initials {
-        font-family: Source Serif Pro;
-        font-size: 36px;
-        font-weight: 700;
-        padding: 16px;
+    text-align: left;
 }
 
 h6 {
     font-family: Montserrat;
     font-size: 12px;
     font-weight: 500;
-}
-
-.icon {
-    height: 45px;
-    display: inline-block;
+    text-align: center;
 }
