@@ -8,10 +8,9 @@ body {
 header {
     background-color: #474747;
     color: #F9F7F4;
-    position: fixed;
     top: 0;
     height: 110px;
-    width: 100%;
+    position: sticky;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -52,7 +51,6 @@ a{
     background-color: #474747;
     width: 100%;
     color: #F9F7F4;
-    margin-top: 110px;
     display: flex;
     align-items: flex-end;
     justify-content: space-between;
@@ -143,7 +141,6 @@ footer {
     background-color: #474747;
     color: #F9F7F4;
     height: 110px;
-    width: 100%;
     display: flex;
     justify-content: space-between;
     align-items: center;
