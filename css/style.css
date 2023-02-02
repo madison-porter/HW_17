@@ -43,6 +43,8 @@ a{
     font-family: montserrat;
     font-size: 20px;
     font-weight: 400; 
+    text-decoration: none;
+    color: #F9F7F4;
 }
 
 /* About Me */
